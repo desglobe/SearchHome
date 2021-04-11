@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: gray;
+  --secondary-color: grey;
+  --neutral-color: rgb(20, 20, 20);
+}
+.rod {
+  display: flex;
+  justify-content: space-around;
+  width: 17%;
+  margin-left: auto;
+}
+.rod a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  margin-top: 25px;
+}
+.rod a:hover {
+  border-bottom: 1px solid var(--secondary-color);
+}
+.rod .pic-1,
+.pic-2 {
+  margin-top: 20px;
+  width: 30px;
+}
+.forr {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.forr .pic-3 {
+  width: 400px;
+  margin-top: 3px;
+}
+.forr input[type="text"] {
+  border: 1px solid var(--secondary-color);
+  width: 85%;
+  padding: 18px;
+  border-radius: 30px;
+  opacity: 2.5;
+}
+input:hover {
+  box-shadow: 1px 1px var(--secondary-color);
+}
+input:focus {
+  outline: none;
+}
+.search-button {
+  margin-top: 25px;
+}
+.search-button button {
+  padding: 15px;
+  margin: 5px;
+  background: var(--primary-color);
+  border: 0;
+  border-radius: 4px;
+}
+.lots {
+  margin-top: 153px;
+}
+.lots .top {
+  padding: 1.5em;
+  background: rgb(190, 186, 186);
+  border-bottom: 0.5px solid var(--primary-color);
+}
+.lots .down {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5em;
+  padding-left: 2px;
+  background: rgb(190, 186, 186);
+}
+.down li {
+  list-style-type: none;
+  display: inline-block;
+}
+.down li a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px;
+  padding: 10px;
+  color: var(--neutral-color);
+}
+.down a:hover {
+  text-decoration: underline;
+}
+.down .ooo {
+  text-align: center;
+}
+.down .ads {
+  text-decoration: none;
+  color: var(--neutral-color);
+}
